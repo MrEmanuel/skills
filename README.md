@@ -10,24 +10,19 @@ Small, reusable instructions that help an AI agent approach a task. Each skill l
 
 ## Install
 
-Clone this repository, then copy the **whole skill folder** into your project's skills directory:
+Ask your AI agent:
 
-```sh
-git clone https://github.com/MrEmanuel/skills.git
+```text
+Install the be-more-pedagigical skill from https://github.com/MrEmanuel/skills for my AI agent.
 ```
 
-| Agent | Project skills directory |
-| --- | --- |
-| [Codex](https://learn.chatgpt.com/docs/build-skills) | `.agents/skills/` |
-| [GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills) | `.github/skills/` |
-| [Claude Code](https://code.claude.com/docs/en/skills) | `.claude/skills/` |
-| [Cursor](https://cursor.com/docs/skills) | `.cursor/skills/` |
-| [Gemini CLI](https://geminicli.com/docs/cli/skills/) | `.gemini/skills/` |
-| [OpenCode](https://opencode.ai/docs/skills/) | `.opencode/skills/` |
+Replace the skill name with any skill above. Your agent can choose the appropriate installation method and location; start a new session if needed.
 
-For example, copy `skills/skills/be-more-pedagigical/` from the clone to your project's chosen directory, so it contains `be-more-pedagigical/SKILL.md`. Start a new agent session to use it.
+Alternatively, use [skills.sh](https://skills.sh/) to choose skills and agents:
 
-For Codex, you can also ask: `Use $skill-installer to install https://github.com/MrEmanuel/skills/tree/master/skills/be-more-pedagigical`.
+```sh
+npx skills@latest add MrEmanuel/skills
+```
 
 ## Add a skill
 
