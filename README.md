@@ -24,6 +24,8 @@ Alternatively, use [skills.sh](https://skills.sh/) to choose skills and agents:
 npx skills@latest add MrEmanuel/skills
 ```
 
+![The skills.sh CLI showing the skill selection menu](images/skills-cli.png)
+
 ## Add a skill
 
 Create `skills/<skill-name>/SKILL.md` with a name, description, and instructions. Add supporting files only when needed, and link the skill in the list above. The [document a skill](skills/document-skill/SKILL.md) skill guides this process.
