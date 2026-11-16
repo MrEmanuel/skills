@@ -26,7 +26,7 @@ npx skills@latest add MrEmanuel/skills
 
 ![The skills.sh CLI showing the skill selection menu](images/skills-cli.png)
 
-## Add a skill
+## Add a skill (for maintainers)
 
 Create `skills/<skill-name>/SKILL.md` with a name, description, and instructions. Add supporting files only when needed, and link the skill in the list above. The [document a skill](skills/document-skill/SKILL.md) skill guides this process.
 
