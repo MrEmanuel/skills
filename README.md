@@ -13,7 +13,7 @@ Small, reusable instructions that help an AI agent approach a task. Each skill l
 Ask your AI agent:
 
 ```text
-Install the be-more-pedagigical skill from https://github.com/MrEmanuel/skills for my AI agent.
+Install the be-more-pedagigical skill from https://github.com/MrFiskarBengt/skills for my AI agent.
 ```
 
 Replace the skill name with any skill above. Your agent can choose the appropriate installation method and location; start a new session if needed.
@@ -21,7 +21,7 @@ Replace the skill name with any skill above. Your agent can choose the appropria
 Alternatively, use [skills.sh](https://skills.sh/) to choose skills and agents:
 
 ```sh
-npx skills@latest add MrEmanuel/skills
+npx skills@latest add MrFiskarBengt/skills
 ```
 
 ![The skills.sh CLI showing the skill selection menu](images/skills-cli.png)
